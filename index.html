@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <div class="flex items-center py-4">
+          <div class="logo">
+            <img class="img-responsive" src="./assets/images/logo.png" alt="" />
+          </div>
+          <ul class="grid grid-cols-5 ml-auto place-items-center">
+            <li class="px-2 py-1">
+              <span>SHOWS</span>
+            </li>
+            <li class="px-2 py-1">
+              <span>MOVIES</span>
+            </li>
+            <li class="px-2 py-1">
+              <span>CATEGORIES</span>
+            </li>
+            <li class="px-2 py-1">
+              <span>DOWNLOADS</span>
+            </li>
+            <li class="px-2 py-1">
+              <button class="primary">SIGN IN</button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="container banner mt-4 mb-10">
+          <div class="h-full banner-img rounded-16px">
+            <img class="" src="./assets/images/top-gun.jpg" alt="" />
+          </div>
+          <div class="container banner-content mb-20">
+            <div class="text-content">
+              <p class="text-sm header">Most Watched</p>
+              <p class="title text-2xl py-1">Top Gun: Maverick</p>
+              <p class="genre">Action</p>
+              <button class="mt-2">Stream Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container mb-12">
+          <div class="grid grid-cols-9 gap-x-5">
+            <div class="col-span-7">
+              <div class="flex justify-between items-center mb-4">
+                <div>
+                  <span class="text-light-black text-sm"
+                    >Latest and Trending</span
+                  >
+                </div>
+                <div class="flex items-center">
+                  <span class="text-light-black text-sm">More</span>
+                  <img
+                    class="tiny-icon"
+                    src="./assets/images/right-arrow.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="grid grid-cols-3 gap-5">
+                <div class="movie-card rounded-8px">
+                  <img src="./assets/images/woman king.jpg" alt="" />
+                </div>
+                <div class="movie-card rounded-8px">
+                  <img src="./assets/images/alchemy soul.jpg" alt="" />
+                </div>
+                <div class="movie-card rounded-8px">
+                  <img src="./assets/images/bridgerton.jpeg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="col-span-2">
+              <div class="flex justify-between items-center mb-4">
+                <div>
+                  <span class="text-light-black text-sm">Coming Soon</span>
+                </div>
+                <div class="flex items-center">
+                  <span class="text-light-black text-sm">More</span>
+                  <img
+                    class="tiny-icon"
+                    src="./assets/images/right-arrow.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="coming-soon-card rounded-8px p-2 mb-3">
+                <div class="grid grid-cols-3 gap-x-3">
+                  <div class="col-span-1 movie-img rounded-4px">
+                    <img src="./assets/images/black-panther-2.jpeg" alt="" />
+                  </div>
+                  <div class="col-span-2">
+                    <p class="title">Black Panther 2</p>
+                    <p class="extra-info py-1">Premieres on</p>
+                    <p class="date">11 November 2022</p>
+                  </div>
+                </div>
+              </div>
+              <div class="coming-soon-card rounded-8px p-2 mb-3">
+                <div class="grid grid-cols-3 gap-x-3">
+                  <div class="col-span-1 movie-img rounded-4px">
+                    <img src="./assets/images/black-adam.jpeg" alt="" />
+                  </div>
+                  <div class="col-span-2">
+                    <p class="title">Black Adam</p>
+                    <p class="extra-info py-1">Premieres on</p>
+                    <p class="date">21 October 2022</p>
+                  </div>
+                </div>
+              </div>
+              <div class="coming-soon-card rounded--8px] p-2 mb-3">
+                <div class="grid grid-cols-3 gap-x-3">
+                  <div class="col-span-1 movie-img rounded-[4px]">
+                    <img src="./assets/images/fire force.jpg" alt="" />
+                  </div>
+                  <div class="col-span-2">
+                    <p class="title">Fire Force Season 3</p>
+                    <p class="extra-info py-1">Premieres on</p>
+                    <p class="date">27 April 2023</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container mb-16">
+          <h3 class="text-center text-3xl">How to get started</h3>
+          <p class="text-center font-thin py-3 mb-7">
+            Subscription Options to Watch Your Favorite Series and More
+          </p>
+          <div class="flex">
+            <div class="mx-auto grid grid-cols-3 gap-x-5">
+              <div class="rounded-16px bg-white subscription-card p-8">
+                <p class="name"><b>BASIC</b></p>
+                <ul class="plan-descriptions my-4">
+                  <li class="ml-4 mb-3">
+                    <span class=""
+                      >Watch up to 3 shows and 8 movies per month.
+                    </span>
+                  </li>
+                  <li class="ml-4 mb-3">
+                    <span class=""
+                      >Get access to our movie notifications.
+                    </span>
+                  </li>
+                </ul>
+                <div class="mt-auto">
+                  <div class="price mb-5">
+                    <p class="text-light-black">$6 per month.</p>
+                  </div>
+                  <button class="primary w-full">Select this plan</button>
+                </div>
+              </div>
+              <div class="rounded-16px bg-white subscription-card p-8">
+                <p class="name"><b>STANDARD</b></p>
+                <ul class="plan-descriptions my-4">
+                  <li class="ml-4 mb-3">
+                    <span class=""
+                      >Watch up to 6 shows and 14 movies per month.
+                    </span>
+                  </li>
+                  <li class="ml-4 mb-3">
+                    <span class=""
+                      >Get access to our movie notifications.
+                    </span>
+                  </li>
+                  <li class="ml-4 mb-3">
+                    <span class=""
+                      >Download and save up to 10 movies on your device.
+                    </span>
+                  </li>
+                </ul>
+                <div class="mt-auto">
+                  <div class="price mb-5">
+                    <p class="text-light-black">$10 per month.</p>
+                  </div>
+                  <button class="primary w-full">Select this plan</button>
+                </div>
+              </div>
+              <div class="rounded-16px bg-white subscription-card p-8">
+                <p class="name"><b>PREMIUM</b></p>
+                <ul class="plan-descriptions my-4">
+                  <li class="ml-4 mb-3">
+                    <span class="">
+                      Watch up to 10 shows and 21 movies per month.
+                    </span>
+                  </li>
+                  <li class="ml-4 mb-3">
+                    <span class=""
+                      >Get access to our movie notifications.
+                    </span>
+                  </li>
+                  <li class="ml-4 mb-3">
+                    <span class=""
+                      >Unlimited downloads across your devices.
+                    </span>
+                  </li>
+                  <li class="ml-4 mb-3">
+                    <span class="">Share subscription with a loved one. </span>
+                  </li>
+                </ul>
+                <div class="mt-auto">
+                  <div class="price mb-5">
+                    <p class="text-light-black">$15 per month.</p>
+                  </div>
+                  <button class="primary w-full">Select this plan</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="form__container">
+            <input type="email" class="email__input" placeholder=" " />
+            <label class="email__label">EMAIL</label>
+          </div>
+            <button type="primary">Submit</button>
+      </section>
+    </main>
+    <footer>
+      <div class="container pb-10">
+        <div class="logo flex justify-center mb-3">
+          <img class="img-responsive" src="./assets/images/logo.png" alt="" />
+        </div>
+        <div class="flex">
+          <ul class="inline-grid grid-cols-5 mx-auto place-items-center mb-4">
+            <li class="px-2 py-1">
+              <span>History</span>
+            </li>
+            <li class="px-2 py-1">
+              <span>Terms of use</span>
+            </li>
+            <li class="px-2 py-1">
+              <span>Contact Us</span>
+            </li>
+            <li class="px-2 py-1">
+              <span>Privacy policy</span>
+            </li>
+            <li class="px-2 py-1">
+              <span>Team</span>
+            </li>
+          </ul>
+        </div>
+        <p class="text-center text-light-black mb-4">
+          Developed by Umekwe Chineneye.
+        </p>
+        <p class="text-center">© 2022 FLIXIA. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
