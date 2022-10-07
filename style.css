@@ -155,7 +155,7 @@
   
   ul.plan-descriptions li {
     color: #5e6577;
-    list-style: circle;
+    list-style: square;
   }
   
   .subscription-card {
@@ -165,12 +165,7 @@
   
   .subscription-card .name {
     color: #0e182c;
-    font-size: 18px;
+    font-size: 20px;
   }
 
-  h4{
-    color: #5e6577;
-    list-style: circle;
-    display: flex;
-    flex-direction: column;  
-  }
+  
